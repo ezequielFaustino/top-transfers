@@ -50,4 +50,15 @@ article {
   }
 }
 
+h2 {
+  margin-top: 1em;
+}
+
+ul {
+  padding: 1em;
+}
+ul li {
+  margin: 0.5em 0;
+}
+
 /*# sourceMappingURL=app.css.map */
