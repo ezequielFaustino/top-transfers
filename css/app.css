@@ -1,0 +1,53 @@
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  line-height: 1;
+}
+
+h1 {
+  font-size: clamp(1.25rem, 1rem + 10vw, 2.5rem);
+}
+
+h2,
+h3,
+p {
+  margin-bottom: 1em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  padding: 0 1em;
+  max-width: 60em;
+  margin-inline: auto;
+  border: 2px solid red;
+}
+
+header,
+article {
+  padding: 4rem 0;
+}
+@inlcude mixins.mobile {
+  header,
+  article {
+    padding: 7rem 0;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */
