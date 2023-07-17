@@ -43,9 +43,9 @@ const renderTransfers = () => {
 
 const realTransferInfo = () => {
   const realSpent = realBought.reduce((accumulator, { amount }) => accumulator + amount, 0)
-  
+
   const div = document.querySelector('[data-js="real-spent"]')
-  
+
   const span = document.createElement('span')
   span.innerText = `* Real Madrid gastou ${realSpent} milhoẽs de euros!`
 
@@ -53,12 +53,12 @@ const realTransferInfo = () => {
 }
 
 const barcaTransferInfo = () => {
-  const barcaSpent = barcaBought.reduce((accumulator, {amount}) => accumulator + amount, 0)
+  const barcaSpent = barcaBought.reduce((accumulator, { amount }) => accumulator + amount, 0)
   const div = document.querySelector('[data-js="barca-spent"]')
-  
+
   const span = document.createElement('span')
   span.innerText = `* Barcelona gastou ${barcaSpent} milhões de euros!`
-  
+
   div.append(span)
 }
 
