@@ -11,6 +11,8 @@ const topTransfers = [
 const realBought = topTransfers.filter(({to}) => to === 'Real Madrid' )
 const barcaBought = topTransfers.filter(({to}) => to === 'Barcelona')
 
+const realSpent = realBought.reduce((accumulator, {amount}) => accumulator + amount, 0)
+console.log(realSpent);
 
 const renderTransfers = () => {
   const transfersList = document.querySelector('[data-js="transfers-list"]')
