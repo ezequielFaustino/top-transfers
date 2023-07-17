@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body,
 h1,
 h2,
@@ -11,10 +17,6 @@ h2,
 h3 {
   font-weight: 700;
   line-height: 1;
-}
-
-h1 {
-  font-size: clamp(1.25rem, 1rem + 10vw, 2.5rem);
 }
 
 h2,
@@ -32,30 +34,49 @@ img {
   text-align: center;
 }
 
+body {
+  background-color: #17594A;
+}
+
 .container {
   padding: 0 1em;
   max-width: 60em;
   margin-inline: auto;
-  border: 2px solid red;
+  background-color: #fff;
 }
 
 header,
 article {
   padding: 4rem 0;
 }
-@inlcude mixins.mobile {
+@media (max-width: 40em) {
   header,
   article {
     padding: 7rem 0;
   }
 }
 
+h1 {
+  font-size: clamp(1.5rem, 1rem + 10vw, 2rem);
+}
+
 h2 {
   margin-top: 1em;
+  font-size: clamp(1.25rem, 1rem + 10vw, 1.5rem);
+}
+
+p,
+h3 {
+  margin-top: 1em;
+  font-size: clamp(1rem, 1rem + 10vw, 1.25rem);
 }
 
 ul li, ol li {
   margin: 0.5rem 0;
+}
+
+img {
+  margin-top: 1em;
 }
 
 /*# sourceMappingURL=app.css.map */
