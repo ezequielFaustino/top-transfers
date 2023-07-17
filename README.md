@@ -4,7 +4,7 @@
 - HTML semântico com tag <article> para o conteúdo em formato de informação.
 
 ### CSS e SASS
-- utilizado SASS para o a facilidade em organizar os arquivos de estilo.
+- utilizado SASS para a facilidade em organizar os arquivos de estilo.
 - propriedade CSS max-width e margin-inline para centralizar div.container na página.
 
 ### Javascript
