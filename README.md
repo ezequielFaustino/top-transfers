@@ -1,5 +1,5 @@
 # Top 7 Transferências do futebol brasileiro para o exterior
-# Mini-projeto para aprendizado de tecnologias front-end
+### Mini-projeto para aprendizado de tecnologias front-end
 ### HTML
 - HTML semântico com a tag `<article>` para o conteúdo em formato de informação.
 
