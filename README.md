@@ -1,7 +1,7 @@
 # Top 7 Transferências do futebol brasileiro para o exterior
 # Mini-projeto para aprendizado de tecnologias front-end
 ### HTML
-- HTML semântico com tag <article> para o conteúdo em formato de informação.
+- HTML semântico com a tag `<article>` para o conteúdo em formato de informação.
 
 ### CSS e SASS
 - utilizado SASS para a facilidade em organizar os arquivos de estilo.
